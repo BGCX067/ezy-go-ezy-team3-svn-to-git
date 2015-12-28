@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="#ffffff">
+    <TextView android:text="$3.14" android:layout_width="wrap_content" android:textSize="40sp" android:textColor="@color/tree_green" android:id="@+id/tv_balanceAmt" android:layout_height="wrap_content" android:layout_below="@+id/tv_balanceLbl" android:layout_alignLeft="@+id/tv_balanceLbl" android:layout_marginTop="18dp" android:layout_alignRight="@+id/tv_balanceLbl"></TextView>
+    <TextView android:text="Next Stop" android:layout_width="wrap_content" android:textSize="25sp" android:textColor="@color/tree_green" android:id="@+id/tv_nextStopLbl" android:layout_height="wrap_content" android:layout_alignBaseline="@+id/tv_busNoLbl" android:layout_alignBottom="@+id/tv_busNoLbl" android:layout_alignParentRight="true" android:layout_marginRight="55dp"></TextView>
+    <TextView android:text="Balance" android:layout_width="wrap_content" android:textSize="40sp" android:textColor="@color/tree_green" android:id="@+id/tv_balanceLbl" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:layout_marginTop="74dp"></TextView>
+    <TextView android:text="Bus" android:layout_width="wrap_content" android:textSize="25sp" android:textColor="@color/tree_green" android:id="@+id/tv_busNoLbl" android:layout_height="wrap_content" android:layout_below="@+id/tv_balanceAmt" android:layout_toLeftOf="@+id/tv_balanceAmt" android:layout_marginTop="21dp"></TextView>
+    
+</RelativeLayout>

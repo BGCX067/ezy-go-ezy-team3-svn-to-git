@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    <LinearLayout android:layout_width="match_parent" android:layout_marginTop="30sp" android:layout_height="wrap_content" android:orientation="horizontal" android:weightSum="1">
+       <TextView  android:layout_marginLeft="10dp" android:paddingBottom="5dp"  android:textSize="20sp" android:layout_marginTop="10dp" android:layout_marginRight="15dp" android:layout_width="wrap_content" android:text="Username:" android:id="@+id/tv_userNameLbl" android:layout_height="wrap_content"></TextView>
+        <EditText android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_marginRight="10dp"  android:inputType="text" android:layout_height="wrap_content" android:hint="Passport No" android:id="@+id/et_userName" ></EditText>
+           </LinearLayout>
+           <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:weightSum="1">
+       <TextView  android:layout_marginLeft="10dp"  android:paddingBottom="5dp"  android:textSize="20sp" android:layout_marginTop="10dp" android:layout_marginRight="15dp" android:layout_width="wrap_content" android:text="Password: " android:id="@+id/tv_passwordLbl" android:layout_height="wrap_content"></TextView>
+        <EditText android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_marginRight="10dp"  android:inputType="textPassword" android:layout_height="wrap_content"  android:id="@+id/et_password" ></EditText>
+           </LinearLayout>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:weightSum="1">
+       <TextView  android:layout_marginLeft="10dp"  android:paddingBottom="5dp"  android:textSize="20sp" android:layout_marginTop="10dp" android:layout_marginRight="15dp" android:layout_width="wrap_content" android:text="Full Name:" android:id="@+id/tv_fullNameLbl" android:layout_height="wrap_content"></TextView>
+        <EditText android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_marginRight="10dp"  android:layout_height="wrap_content"  android:id="@+id/et_fullName" android:inputType="textPersonName"></EditText>
+           </LinearLayout>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:weightSum="1">
+       <TextView  android:layout_marginLeft="10dp"  android:paddingBottom="5dp"  android:textSize="20sp" android:layout_marginTop="10dp" android:layout_marginRight="15dp" android:layout_width="wrap_content" android:text="Email Id:   " android:id="@+id/tv_emailIdLbl" android:layout_height="wrap_content"></TextView>
+        <EditText android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_marginRight="10dp"  android:layout_height="wrap_content"  android:id="@+id/et_emailId" android:inputType="textEmailAddress"></EditText>
+           </LinearLayout>
+           <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:weightSum="1">
+       <TextView  android:layout_marginLeft="10dp"  android:paddingBottom="5dp"  android:textSize="20sp" android:layout_marginTop="10dp" android:layout_marginRight="15dp" android:layout_width="wrap_content" android:text="Phone No:" android:id="@+id/tv_phoneNoLbl" android:layout_height="wrap_content"></TextView>
+        <EditText android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_marginRight="10dp"  android:layout_height="wrap_content"  android:id="@+id/et_phoneNo" android:inputType="number"></EditText>
+           </LinearLayout>
+           <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:orientation="horizontal" android:weightSum="1">
+               <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+               <Button android:textSize="20sp" android:text="Register" android:layout_width="wrap_content" android:id="@+id/btn_Register" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"></Button>
+           		</RelativeLayout>
+           </LinearLayout>
+</LinearLayout>

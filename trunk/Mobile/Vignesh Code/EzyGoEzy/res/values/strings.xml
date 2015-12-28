@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, EzyGoEzyActivity!</string>
+    <string name="app_name">EzyGoEzy</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="tab_balance">Balance</string>
+    <string name="tab_notification">Notifications</string>
+    <string name="tab_route">Route</string>
+</resources>

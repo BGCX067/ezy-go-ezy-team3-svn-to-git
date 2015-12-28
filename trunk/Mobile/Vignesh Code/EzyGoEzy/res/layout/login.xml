@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/RelativeLayout01" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#0991FF"
+    >
+ <EditText android:id="@+id/tv_userName" android:layout_width="fill_parent" android:hint="@string/username" android:layout_marginLeft="50sp" android:layout_marginRight="50sp" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_marginTop="166dp">
+     <requestFocus></requestFocus>
+ </EditText>
+ <TextView android:text="Register" android:clickable="true" android:textSize="15sp" android:layout_width="wrap_content" android:id="@+id/tv_Register" android:layout_height="wrap_content" android:layout_below="@+id/btn_Login" android:layout_centerHorizontal="true" android:layout_marginTop="31dp"></TextView>
+ <Button android:layout_height="wrap_content" android:background="#06E82A" android:layout_width="134dp" android:text="@string/login" android:padding="10sp" android:id="@+id/btn_Login" android:layout_below="@+id/tv_password" android:layout_centerHorizontal="true" android:layout_marginTop="34dp"></Button>
+ <EditText android:layout_height="wrap_content" android:hint="@string/password" android:layout_width="fill_parent" android:inputType="textPassword" android:id="@+id/tv_password" android:layout_below="@+id/tv_userName" android:layout_alignLeft="@+id/tv_userName" android:layout_marginTop="18dp" android:layout_alignRight="@+id/tv_userName"></EditText>
+       
+</RelativeLayout>
